@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sletjs/viewcontroller#readme",
   "dependencies": {
-    "koa-views": "next"
+    "koa-views": "next",
+    "slet-basecontroller": "^1.0.0"
   }
 }

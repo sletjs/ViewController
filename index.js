@@ -1,7 +1,9 @@
 'use strict';
 const views = require('koa-views');
 
-module.exports = class ViewController {
+const BaseController = require('slet-basecontroller')
+
+module.exports = class ViewController extends BaseController {
   constructor(app, ctx, next) {
     this.app = app
     this.ctx = ctx
