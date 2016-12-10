@@ -11,7 +11,7 @@ module.exports = class ViewController {
     this.data = {}
     
     // 定义中间件
-    var _views = views(this.viewPath, this.opts.views.option)
+    var _views = views(this.viewPath, this.app.opts.views.option)
     this.app.defineMiddleware('koa-views', _views)
     
     // 定义global filter
