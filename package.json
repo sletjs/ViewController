@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sletjs/viewcontroller/issues"
   },
-  "homepage": "https://github.com/sletjs/viewcontroller#readme"
+  "homepage": "https://github.com/sletjs/viewcontroller#readme",
+  "dependencies": {
+    "koa-views": "^5.2.0"
+  }
 }
