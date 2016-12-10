@@ -5,10 +5,8 @@ const BaseController = require('slet-basecontroller')
 
 module.exports = class ViewController extends BaseController {
   constructor(app, ctx, next) {
-    this.app = app
-    this.ctx = ctx
+    super(app, ctx, next)
     this.query = ctx.query
-    this.next = next
     this.tpl = ''
     this.data = {}
     
