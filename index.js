@@ -7,8 +7,7 @@ module.exports = class ViewController extends BaseController {
   constructor(app, ctx, next) {
     super(app, ctx, next)
     this.query = ctx.query
-    this.tpl = ''
-    this.data = {}
+    this.renderType = 'view'
     
     // 定义中间件
     var _views = views(this.viewPath, this.app.opts.views.option)
