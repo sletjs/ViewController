@@ -11,8 +11,8 @@ module.exports = class ViewController extends BaseController {
     this.data = {}
     this.renderType = 'view'
     
-    console.log(this.app.opts.views.path)
-    console.log(this.app.opts.views.option)
+    // console.log(this.app.opts.views.path)
+    // console.log(this.app.opts.views.option)
     // 定义中间件
     var _views = views(this.app.opts.views.path, this.app.opts.views.option)
     this.app.defineMiddleware('koa-views', _views)
