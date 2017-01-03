@@ -19,6 +19,6 @@
   "homepage": "https://github.com/sletjs/viewcontroller#readme",
   "dependencies": {
     "koa-views": "next",
-    "slet-basecontroller": "^1.0.2"
+    "slet-basecontroller": "^1.4.6"
   }
 }
